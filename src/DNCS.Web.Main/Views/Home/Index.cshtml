@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "首页";
+}
+
+<div class="main-wrapper main-wrapper-localtion">
+    <div class="container main-sentence justify-content-center text-center">
+        <div id="sentence" class="content">
+            <template>
+                <p class="content-main">{{ content }}</p>
+                <p class="content-source" v-if="hassource">{{ source }}</p>
+            </template>
+        </div>
+    </div>
+</div>
+<div class="foot-1 change-btn">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <span class="btn btn-primary btn-filled btn-xs" onclick="app.Init()">
+                    <a class="btn btn-primary btn-filled btn-xs" href="javascript:void(0)">换一个</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles{
+    <link rel="stylesheet" href="~/home/css/index.css">
+}
+
+@section Scripts{
+    <script src="~/home/js/index.js"></script>
+}

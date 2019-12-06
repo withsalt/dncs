@@ -1,0 +1,25 @@
+﻿.change-btn {
+    position: absolute;
+    bottom: 12vh;
+    width: 100%;
+}
+
+.main-wrapper-localtion {
+    position: relative;
+    top: -8vh;
+}
+
+.content {
+    font-size: 2rem;
+}
+
+.content-main {
+    text-align: center;
+}
+
+.content-source {
+    text-align: right;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    /*margin-right:2%;*/
+}
